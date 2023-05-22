@@ -470,7 +470,7 @@ template<int chkreq>
 	
     int searchRoot();
     int searchPV(Board &board, int alpha, int beta, int depth); //, int null_allow);   
-    int AlphaBeta(Board &board, int beta, int depth, bool null_allow);
+    int AlphaBeta(Board &board, int beta, int depth, int null_allow);
  
 //template<int PVNode>
     int quiesCheckPV(Board &board, int alpha,int beta, int qdepth, int check_depth); //, int PVNode); //, int qcheck);
